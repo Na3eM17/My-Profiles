@@ -116,14 +116,20 @@ button:hover{border-right: solid thick rgb(78, 0, 0);
 
 @media screen and (max-width: 1000px){
     #main{width: 50%;
-    height: 50%;}
-    #color{width: 50%;
-        height: 20%;}
+        height: 70%;
+        margin-bottom: 50%;}
+    
+    
+        #color{
+            width: 50%;
+            margin-top: 50%;
+       }
 
-    #contain{
-        margin-top: 50%;
-        margin-bottom: 50%;
+    #contain{width: 50%;
+        border: solid thick rgb(255, 0, 0) ;
+        width: 100%;
+        height: 100%;
     }
-    #imag{margin-top: -90px;}
+    #imag{margin-top: -70px;}
 
 }
