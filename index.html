@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>na3em.profiles</title>
     <link rel="stylesheet" href="Style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <div class="containor">
-      <div class="color">
-        <div class="main">
+    <div class="flex gap-2 items-center justify-center w-full h-[100vh]">
+      <div
+        class="p-[2px] rounded-xl bg-gradient-to-r from-red-500 to-[rgb(57,0,0)] h-[500px] w-[400px]"
+      >
+        <div
+          class="flex flex-col gap-2 items-center justify-center bg-black rounded-xl p-4 w-full h-full"
+        >
           <div id="imag" onclick="Click()"><img src="photo.jpg" /></div>
           <div class="OpenImg" id="OpenImage" onclick="Hide()">
             <div class="showImg">
@@ -18,35 +23,44 @@
           </div>
           <div id="name"><h2>na3em alhindi</h2></div>
           <div id="whats">0799788976</div>
-          <div id="github">
-            <button onclick="location.href='https://github.com/Na3eM17'">
-              <a href="https://github.com/Na3eM17">github</a>
+          <div
+            class="p-[2px] rounded-xl bg-gradient-to-r from-red-500 to-[rgb(57,0,0)] w-[90%] hover:p-0"
+          >
+            <button
+              class="w-full bg-black rounded-xl hover:border-2 border-solid border-red-950"
+              onclick="location.href='https://www.github.com/na3em17'"
+            >
+              <a href="#">github</a>
             </button>
           </div>
-          <div id="insta">
+          <div
+            class="p-[2px] rounded-xl bg-gradient-to-r from-red-500 to-[rgb(57,0,0)] w-[90%] hover:p-0"
+          >
             <button
+              class="w-full bg-black rounded-xl hover:border-2 border-solid border-red-950"
               onclick="location.href='https://www.instagram.com/neemo_bh'"
             >
-              <a href="https://www.instagram.com/neemo_bh">instagtram</a>
+              <a href="#">instagtram</a>
             </button>
           </div>
-          <div id="facebook">
+          <div
+            class="p-[2px] rounded-xl bg-gradient-to-r from-red-500 to-[rgb(57,0,0)] w-[90%] hover:p-0"
+          >
             <button
+              class="w-full bg-black rounded-xl hover:border-2 border-solid border-red-950"
               onclick="location.href='https://www.facebook.com/profile.php?id=100005426567781&mibextid=ZbWKwL'"
             >
-              <a
-                href="https://www.facebook.com/profile.php?id=100005426567781&mibextid=ZbWKwL"
-                >facebook</a
-              >
+              <a href="#">facebook</a>
             </button>
           </div>
-          <div id="linkedin">
+          <div
+            class="p-[2px] rounded-xl bg-gradient-to-r from-red-500 to-[rgb(57,0,0)] w-[90%] hover:p-0"
+          >
             <button
+              class="w-full bg-black rounded-xl hover:border-2 border-solid border-red-950"
               onclick="location.href='https://www.linkedin.com/in/naeem-alhindi-720b29310/'"
             >
-              <a href="https://www.linkedin.com/in/naeem-alhindi-720b29310/"
-                >linkedin</a
-              >
+              <a href="#">linkedin</a>
             </button>
           </div>
         </div>
