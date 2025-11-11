@@ -193,7 +193,11 @@ body {
   .modal-content {
     width: 90%;
     margin: 0;
+    height: 90%;
+    justify-content: space-between;
+    gap: 0px;
   }
+  
   .name {
     font-size: 1.25rem;
   }
@@ -208,3 +212,4 @@ body {
     height: 100px;
   }
 }
+
