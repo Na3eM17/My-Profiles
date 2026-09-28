@@ -1,64 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>na3em.profiles</title>
-    <link rel="stylesheet" href="Style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="modal" id="modal" onclick="closeImage()">
-          <div class="modal-content">
-            <p>
-              <h3>hello! my name is naeem al hindi</h3> <br>
-              Motivated Software Engineering graduate with hands-on experience in web development , Mobile application development and IT auditing. Skilled in both frontend and backend technologies, with a strong understanding of COBIT-based IT governance and risk management. Passionate about creating efficient, user-centered solutions and continuously improving technical and analytical skills through real-world projects and professional experiences.
-            </p>
-            <a href="https://my-portefolio-fawn.vercel.app/#Contact">Get contact</a>
-          </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My-Profiles</title>
+ 
+</head>
+ 
+<body>
+ 
+  <div class="jarvis-panel">
+ 
+    <!-- TECH LINE -->
+    <div class="tech-line"></div>
+ 
+    <!-- HEADER -->
+    <div class="jarvis-header">
+ 
+      <div>
+        <span>
+          Naeem Alhindi // My Profiles
+        </span>
+ 
+        <h1>S.O.F.T.W.A.R.E</h1>
+      </div>
+ 
+      <div class="status">
+        ● ONLINE
+      </div>
+ 
+    </div>
+ 
+ 
+ 
+    <!-- PROFILE -->
+    <div class="profile-section">
+ 
+      <!-- IMAGE -->
+      <div class="profile-img" onclick="openImage()">
+        <img src="https://na3em17.github.io/My-Profiles/MeImg.png" alt="Na3em Alhindi">
+      </div>
+ 
+ 
+      <!-- INFO -->
+      <div class="profile-info">
+ 
+        <h2>Na3em Alhindi</h2>
+ 
+        <div class="phone">
+          0799788976
         </div>
-      <div class="profile-card">
-        <div class="profile-img" onclick="openImage()">
-          <img src="MeImg.png" alt="Profile" />
-        </div>
-        <div class="click-here">
-          <h6>click here</h6>
-          <img src="arrow.png" alt="" width="50px" height="50px">
-        </div>
-
-        <h2 class="name">Na3em Alhindi</h2>
-        <p class="phone">0799788976</p>
-
+ 
+       
+ 
         <div class="links">
-          <a class="link" href="https://github.com/na3em17" target="_blank"
-            >GitHub</a
-          >
-          <a class="link" href="https://instagram.com/neemo_bh" target="_blank"
-            >Instagram</a
-          >
+ 
+          <a
+            class="link"
+            href="https://github.com/na3em17"
+            target="_blank">
+            GitHub
+          </a>
+ 
+          <a
+            class="link"
+            href="https://instagram.com/neemo_bh"
+            target="_blank">
+            Instagram
+          </a>
+ 
           <a
             class="link"
             href="https://facebook.com/profile.php?id=100005426567781"
-            target="_blank"
-            >Facebook</a
-          >
+            target="_blank">
+            Facebook
+          </a>
+ 
           <a
             class="link"
             href="https://linkedin.com/in/naeem-alhindi-720b29310"
-            target="_blank"
-            >LinkedIn</a
-          >
+            target="_blank">
+            LinkedIn
+          </a>
+ 
         </div>
+ 
+        <br>
+ 
+        
+ 
       </div>
+ 
     </div>
-
-    <script>
-      function openImage() {
-        document.getElementById("modal").style.display = "flex";
-      }
-      function closeImage() {
-        document.getElementById("modal").style.display = "none";
-      }
-    </script>
-  </body>
+ 
+ 
+    <!-- FOOTER -->
+    <div class="jarvis-footer">
+      VOICE INTERFACE READY
+      •
+      AWAITING COMMAND
+    </div>
+ 
+  </div>
+ 
+ 
+  <!-- IMAGE MODAL -->
+ 
+  <div class="modal" id="modal" onclick="closeImage()">
+ 
+    <div class="modal-content" onclick="event.stopPropagation()">
+ 
+      <span class="close" onclick="closeImage()">
+        ×
+      </span>
+ 
+      <h3>PROFILE IDENTIFICATION</h3>
+ 
+      <p>
+        Na3em Alhindi — Software Engineering Graduate
+      </p>
+      <p class="description">
+          Motivated Software Engineering graduate with hands-on
+          experience in web development, mobile application development,
+          and IT auditing. Skilled in frontend and backend technologies,
+          with a strong understanding of COBIT-based IT governance
+          and risk management.
+        </p>
+        <a
+          class="contact-btn"
+          href="https://my-portefolio-fawn.vercel.app/#Contact"
+          target="_blank">
+          GET CONTACT
+        </a>
+    </div>
+ 
+  </div>
+ 
+ 
+  <script>
+ 
+    function openImage() {
+      document.getElementById("modal").style.display = "flex";
+    }
+ 
+    function closeImage() {
+      document.getElementById("modal").style.display = "none";
+    }
+ 
+  </script>
+ 
+</body>
 </html>
+ 
+ 
+ 
